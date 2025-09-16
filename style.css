@@ -140,3 +140,53 @@ body {
     margin: 10px;
     padding: 12px;
 }
+.contact{
+    background-color: rgb(0, 0, 0);
+    padding: 50px 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.contact h1{
+    color: white;
+    margin-bottom: 50px;
+}
+.contact-secton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+.contact-secton img {
+    width: 140px;
+}
+.email-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email-form input {
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    border-radius: 12px;
+    margin: 10px;
+}
+.email-form textarea {
+    border: none;
+    outline: none;
+    padding: 10px 14px;
+    border-radius: 12px;
+    margin: 10px;
+}
+.btnc {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 30px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.6s;
+}
